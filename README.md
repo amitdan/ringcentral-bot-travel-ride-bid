@@ -1,4 +1,4 @@
-# ringcentral-bot-travel-ride-bid
+# Travel Ride Bid Bot - TRBB
 Bot to bid travel rides from any corner of the city developed in PHP using botman framework
 
 
