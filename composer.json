@@ -1,0 +1,45 @@
+{
+  "name": "ringcentral/glip-botman",
+  "type": "library",
+  "description": "Independent adaptor for Glip to support Botman",
+  "keywords": [
+    "php",
+    "sdk",
+    "ringcentral",
+    "botman",
+    "connect",
+    "platform",
+    "api"
+  ],
+  "homepage": "http://developers.ringcentral.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anil Kumar",
+      "email": "anil.kumar@ringcentral.com"
+    },
+    {
+      "name": "RingCentral, Inc.",
+      "email": "devsupport@ringcentral.com"
+    }
+  ],
+  "require": {
+    "mpociot/botman": "^1.5",
+    "ringcentral/ringcentral-php": "^2.0.0",
+    "vlucas/phpdotenv": "^2.2",
+    "ext-curl": "*",
+    "php": ">=5.6.0",
+    "guzzlehttp/psr7": "^1.4.2",
+    "symfony/event-dispatcher": "^2.7|^3.3.2",
+    "guzzlehttp/guzzle": "^6.2.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7.20",
+    "satooshi/php-coveralls": "2.0.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "GlipDriver\\": "."
+    }
+  }
+}
